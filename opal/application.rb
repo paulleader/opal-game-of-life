@@ -1,0 +1,15 @@
+require 'opal'
+require 'jquery'
+require 'opal-jquery'
+require 'life'
+require 'button'
+require 'coordinates'
+require 'cell'
+require 'controls'
+require 'demo'
+require 'interval'
+require 'play_pause_control'
+require 'saved_item'
+require 'speed_control'
+
+Life.new

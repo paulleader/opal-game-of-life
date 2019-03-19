@@ -1,0 +1,42 @@
+body {
+  font-size: 14pt;
+  font-family: sans-serif; }
+
+table {
+  float: left;
+  border-collapse: collapse; }
+  table td {
+    width: 20px;
+    height: 20px;
+    border: 1px solid #aaa;
+    padding: 0px;
+    margin: 0px; }
+    table td.live {
+      background-color: black; }
+    table td.waiting {
+      background-color: #aaa; }
+
+.controls {
+  width: 100%;
+  height: 100%;
+  float: left;
+  margin-left: 1em; }
+  .controls a.button {
+    display: inline-block;
+    border: 0px;
+    border-radius: 0px;
+    padding: 0.25em 0.5em;
+    background-color: gray;
+    margin: 0.5em 0.25em 0.5em 0em;
+    color: white;
+    font-family: sans-serif;
+    cursor: pointer; }
+    .controls a.button.selected {
+      background-color: #4b4; }
+  .controls .speed_control {
+    display: inline-block;
+    margin-left: 1em; }
+    .controls .speed_control input {
+      font-size: 14pt;
+      font-family: sans-serif;
+      width: 3em; }
